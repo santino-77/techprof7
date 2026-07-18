@@ -4,7 +4,70 @@
 </head>
 
 <body bgcolor="#fcfbf5">
-<font color="#a6683c"></font>
+<font color="#a6683c">
 
-<h1><center>RESERVATION FORM</center></h1>
+<h1><b>RESERVATION FORM</b></h1>
 
+<form>
+  <label form="name">Full Name:</label>
+  <br>
+  <input type="text" id="name" name="name" placeholder="Last name, First name M.I." required>
+  <br>
+  <br>
+
+  <label form="email">Email:</label>
+  <br>
+  <input type="email" id="email" name="name" placeholder="@gmail.com">
+  <br>
+  <br>
+
+  <label form="cellphone no.">Cellphone No.:</label>
+  <br>
+  <input type="number" size="30" placeholder="(+63 900 000 0000)">
+  <br>
+  <br>
+
+  <label>Gender:</label>
+  <input type="radio" id="male" id="gender" value="male">
+  <label for="male">Male</label>
+
+  <br>
+
+  <label>Gender:</label>
+  <input type="radio" id="female" id="gender" value="female">
+  <label for="female">Female</label>
+
+  <br>
+
+  <label>Gender:</label>
+  <input type="radio" id="other" id="gender" value="other">
+  <label for="other">Other</label>
+
+  <br>
+
+  <label>Gender:</label>
+  <input type="radio" id="rather not say" id="gender" value="rather not say">
+  <label for="rather not say">Rather not say</label>
+
+  <br>
+  <br>
+
+  <label for="guests">Number of Guests:</label>
+  <input type="number" id="guests" name="guests" min="1" required>
+
+  <br>
+
+<h1><b>Additional Details:</b></h1>
+
+  <h3>Departure date:</h3>
+  <input type="date">
+  <h3>Return Date</h3>
+  <input type="date">
+
+  <br>
+  <br>
+  <br>
+
+  <input type="submit" value="Submit and Reserve">
+</form>
+</html>
